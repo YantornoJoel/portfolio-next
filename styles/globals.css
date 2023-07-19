@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+html {
+	scroll-behavior: smooth !important;
+}
+
+body {
+	/* background-color: #0e0e10; */
+	background-color: #111827 ;
+	color: white;
+}
+
+.Toastify__progress-bar-theme--dark {
+	background: #84fab0 !important;
+}
+
+.Toastify {
+	font-size: clamp(0.94rem, calc(0.95rem + -0.01vw), 0.94rem);
+}
+
+.typed-cursor {
+	font-size: clamp(1.35rem, calc(1.17rem + 0.88vw), 2.22rem) !important;
+}
+
+.line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.Toastify__toast-body {
+	text-align: center;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #3b82f6;
+	border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+	background: #1e1e1e;
+}
