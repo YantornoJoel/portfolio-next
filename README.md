@@ -54,6 +54,6 @@ Para implementar este proyecto en produccion, ejecute
 
 
 ## 🔗 Links
-[![portfolio](https://joel-yantorno.vercel.app/)
-[![linkedin](https://www.linkedin.com/in/joel-yantorno/)
+``https://joel-yantorno.vercel.app``
+``https://www.linkedin.com/in/joel-yantorno``
 
