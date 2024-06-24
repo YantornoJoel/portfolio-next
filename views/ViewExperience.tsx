@@ -55,7 +55,7 @@ export const ViewExperience = () => {
             <li className="mb-10 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-[#3b82f6]">
-                Enero 2021 - Julio 2023
+                Enero 2021 - Enero 2024
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 Desarrollador Junior Mern | Indec
@@ -99,7 +99,7 @@ export const ViewExperience = () => {
               </a>
             </li>
             <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-[#3b82f6]">
                 Noviembre 2022 - Diciembre 2022
               </time>
